@@ -1,0 +1,43 @@
+/* Light Mode (Default) */
+:root {
+  /* Background */
+  --color-bg-dark: #f5f5f5;
+  --color-bg-darker: #ffffff;
+  
+  /* Text */
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #666666;
+  
+  /* Accent Colors - Sunset Palette */
+  --color-accent-coral: #e94560;
+  --color-accent-orange: #ff6b35;
+  --color-accent-purple: #8b5cf6;
+  --color-accent-blue: #3b82f6;
+  
+  /* UI Elements */
+  --color-border: #e0e0e0;
+  --color-hover-overlay: rgba(0, 0, 0, 0.05);
+}
+
+/* Dark Mode (Optional) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Background */
+    --color-bg-dark: #0a0a0a;
+    --color-bg-darker: #000000;
+    
+    /* Text */
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #cccccc;
+    
+    /* Accent Colors - Sunset Palette */
+    --color-accent-coral: #e94560;
+    --color-accent-orange: #ff6b35;
+    --color-accent-purple: #8b5cf6;
+    --color-accent-blue: #3b82f6;
+    
+    /* UI Elements */
+    --color-border: #333333;
+    --color-hover-overlay: rgba(255, 255, 255, 0.05);
+  }
+}
