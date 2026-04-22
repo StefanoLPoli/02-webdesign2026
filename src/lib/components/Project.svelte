@@ -24,7 +24,7 @@
 		<header>
 			<hgroup>
 				<h3>{project.title}</h3>
-				<span>/ {project.year}</span>
+				<span>/ {project.award}</span>
 			</hgroup>
 
 			{#if project.link}

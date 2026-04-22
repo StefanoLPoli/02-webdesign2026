@@ -15,8 +15,8 @@ export default class Project {
 			if (yearA > yearB) return -1;
 			if (yearA < yearB) return 1;
 
-			const titleA = a.data.title.toUpperCase();
-			const titleB = b.data.title.toUpperCase();
+			const titleA = a.data.index;
+			const titleB = b.data.index;
 
 			if (titleA < titleB) return -1;
 			if (titleA > titleB) return 1;

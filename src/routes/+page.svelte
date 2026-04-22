@@ -14,10 +14,11 @@
 
 <section class="safe-area hero">
 	<h1>
-		This archive collects the best outcomes of the Web Design Laboratory in
-		Communication Design, Politecnico di Milano. The laboratory is directed by
-		Umberto Tolino, Christian Mazzoleni, Francesco di Gioia and Tommaso Negri
-		with love.
+		The National Basketball Association (NBA) presents 
+		annual awards to recognize its teams, players, 
+		and coaches for their accomplishments. This does not 
+		include the NBA championship trophy which is given to 
+		the winning team of the NBA Finals.
 	</h1>
 </section>
 

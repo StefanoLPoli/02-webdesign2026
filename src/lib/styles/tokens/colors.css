@@ -1,15 +1,15 @@
 :root {
 	/* HEX Colors */
-	--hex-brand-50:  #FFF7F1;
-	--hex-brand-100: #FEEADD;
-	--hex-brand-200: #FECFBB;
-	--hex-brand-300: #FCAF99;
-	--hex-brand-400: #F9907F;
-	--hex-brand-500: #F65E56;
-	--hex-brand-600: #D33E43;
-	--hex-brand-700: #B12B3B;
-	--hex-brand-800: #8E1B32;
-	--hex-brand-900: #76102D;
+	--hex-brand-50:  #f8f3ed;
+	--hex-brand-100: #FCF4E9;
+	--hex-brand-200: #F9E8D3;
+	--hex-brand-300: #EFD2B8;
+	--hex-brand-400: #DFBAA0;
+	--hex-brand-500: #CB997E;
+	--hex-brand-600: #AE735C;
+	--hex-brand-700: #92523F;
+	--hex-brand-800: #753428;
+	--hex-brand-900: #611F18;
 
 	--hex-neutral-50:  #FAFAFA;
 	--hex-neutral-100: #EDEEEF;
@@ -20,10 +20,10 @@
 	--hex-neutral-600: #5F646A;
 	--hex-neutral-700: #3E4246;
 	--hex-neutral-800: #181A1B;
-	--hex-neutral-900: #060606;
+	--hex-neutral-900: #030404;
 
 	/* Named Colors */
-	@media screen and (prefers-color-scheme: light) {
+	@media screen and (prefers-color-scheme: dark) {
 		--color-canvas: var(--hex-neutral-50);
 		--color-surface: var(--hex-neutral-100);
 
@@ -37,7 +37,7 @@
 		--color-filter--selected: var(--hex-brand-500);
 	}
 
-	@media screen and (prefers-color-scheme: dark) {
+	@media screen and (prefers-color-scheme: light) {
 		--color-canvas: var(--hex-neutral-900);
 		--color-surface: var(--hex-neutral-800);
 

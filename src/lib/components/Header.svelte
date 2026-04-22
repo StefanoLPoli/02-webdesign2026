@@ -3,13 +3,13 @@
 </script>
 
 <header class="safe-area">
-	<Link title="W–D" ref="/" />
+	<Link title="NBA Individual Awards" ref="/" />
 
 	<nav>
-		<Link title="About" ref="/about" />
+		<Link title="About" ref="https://en.wikipedia.org/wiki/List_of_NBA_awards" />
 		<Link
-			title="@webdesign_ddc"
-			ref="https://www.instagram.com/webdesign_ddc"
+			title="@nba"
+			ref="https://www.instagram.com/nba/"
 		/>
 	</nav>
 </header>
