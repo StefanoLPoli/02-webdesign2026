@@ -11,7 +11,7 @@
 	label {
 		padding-block: var(--size-2);
 		padding-inline: var(--size-4);
-		border-radius: 999px;
+		border-radius: var(--radius-full);
 		cursor: pointer;
 		transition: background-color 0.25s var(--ease-out-quart);
 

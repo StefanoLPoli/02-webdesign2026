@@ -30,7 +30,6 @@
 		--color-ink: var(--hex-neutral-900);
 		--color-ink-secondary: var(--hex-neutral-500);
 		--color-ink-inverted: var(--hex-neutral-50);
-
 		--color-link: var(--hex-brand-600);
 
 		--color-filter--hover: var(--hex-neutral-100);
@@ -44,7 +43,6 @@
 		--color-ink: var(--hex-neutral-50);
 		--color-ink-secondary: var(--hex-neutral-400);
 		--color-ink-inverted: var(--hex-neutral-900);
-
 		--color-link: var(--hex-brand-500);
 
 		--color-filter--hover: var(--hex-neutral-800);

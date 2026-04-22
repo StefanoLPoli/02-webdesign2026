@@ -1,6 +1,7 @@
 :root {
 	--base-size: 1rem; /* 16px */
 
+	--size-0:  calc(var(--base-size) * 0);    /* 0px   */
 	--size-1:  calc(var(--base-size) * 0.25); /* 4px   */
 	--size-2:  calc(var(--base-size) * 0.5);  /* 8px   */
 	--size-3:  calc(var(--base-size) * 0.75); /* 12px  */
@@ -12,4 +13,5 @@
 	--size-9:  calc(var(--base-size) * 4.5);  /* 72px  */
 	--size-10: calc(var(--base-size) * 5);    /* 80px  */
 	--size-11: calc(var(--base-size) * 10);   /* 160px */
+	--size-999: 999px;   					  /* 999px */
 }
