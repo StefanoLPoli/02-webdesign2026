@@ -26,6 +26,9 @@ const config = {
 		}),
 		paths: {
 			base: '',
+		},
+		prerender: {
+			handleHttpError: 'ignore',
 		}
 	}
 };
