@@ -36,10 +36,10 @@
 
 <style>
 	.hero {
-		padding-block: var(--size-11);
+		padding: var(--padding-top-main) var(--padding-lateral);
 
 		h1 {
-			font-size: var(--size-7);
+			font-size: var(--font-size-h1);
 			max-width: 35ch;
 		}
 	}
@@ -47,14 +47,18 @@
 	.filters {
 		display: flex;
 		align-items: center;
-		gap: var(--size-5);
+		gap: var(--gap-filter-options);
 	}
 
 	.projects {
-		padding-block: var(--size-7);
-
+		padding-block: var(--gap-filter-options-top);
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap: var(--size-5);
+		gap: var(--gap-card-grid);
+	}
+	@media (max-width: 600px) {
+		.projects {
+			grid-template-columns: 1fr;
+		}
 	}
 </style>

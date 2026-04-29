@@ -3,7 +3,7 @@
 </script>
 
 <header class="safe-area">
-	<Link title="NBA Individual Awards" ref="/" />
+	<Link title="NBA Individual Awards" ref="./" />
 
 	<nav>
 		<Link title="About" ref="https://en.wikipedia.org/wiki/List_of_NBA_awards" />
@@ -16,17 +16,21 @@
 
 <style>
 	header {
-		padding-block: var(--size-6);
+		padding: var(--padding-top-header) var(--padding-lateral);
 
 		display: flex;
-		gap: var(--size-8);
+		gap: var(--gap-header-links);
 		justify-content: space-between;
 		align-items: center;
 	}
 
 	nav {
 		display: flex;
-		gap: var(--size-6);
+		gap: var(--gap-header-links);
 		align-items: center;
+	}
+
+	link {
+		font-size: var(--font-size-links);
 	}
 </style>

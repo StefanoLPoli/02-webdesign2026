@@ -6,6 +6,7 @@
 	--size-2:  calc(var(--base-size) * 0.5);  /* 8px   */
 	--size-3:  calc(var(--base-size) * 0.75); /* 12px  */
 	--size-4:  calc(var(--base-size) * 1);    /* 16px  */
+	--size-4-5:  calc(var(--base-size) * 1.25); /* 20px  */
 	--size-5:  calc(var(--base-size) * 1.5);  /* 24px  */
 	--size-6:  calc(var(--base-size) * 2);    /* 32px  */
 	--size-7:  calc(var(--base-size) * 2.5);  /* 40px  */

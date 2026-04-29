@@ -14,6 +14,7 @@
 		border-radius: var(--radius-full);
 		cursor: pointer;
 		transition: background-color 0.25s var(--ease-out-quart);
+		font-size: var(--font-size-h2);
 
 		&:hover {
 			background-color: var(--color-filter--hover);

@@ -37,10 +37,13 @@
 {/snippet}
 
 <style>
+
 	article {
 		display: flex;
 		flex-direction: column;
 		gap: var(--size-2);
+		width: 100%;
+		box-sizing: border-box;
 
 		&:hover {
 			.veil {
