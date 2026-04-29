@@ -25,7 +25,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/02-webdesign2026' : '',
+			base: '',
 		}
 	}
 };
