@@ -21,8 +21,12 @@ const config = {
 			assets: 'build',
 			fallback: undefined,
 			precompress: false,
-			strict: true
-		})
+			strict: true,
+			fallback: '404.html'
+		}),
+		paths: {
+			base: process.env.NODE_ENV === 'production' ? '/02-webdesign2026' : '',
+		}
 	}
 };
 

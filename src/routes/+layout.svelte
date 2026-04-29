@@ -10,6 +10,9 @@
 	import Footer from "$lib/components/Footer.svelte";
 
 	let { children } = $props();
+
+	export const prerender = true;
+	export const trailingSlash = 'always';
 </script>
 
 <svelte:head>
